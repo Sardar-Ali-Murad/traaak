@@ -1,0 +1,24 @@
+.snapShotBigMain{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.snapShopMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.snapShotContent{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px){
+    .snapShopMain{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,36 @@
+.useBigMain{
+   width: 80%;
+   margin-left: 50%;
+   transform: translateX(-50%);
+}
+
+.userBigHead{
+   text-align: center;
+}
+
+.userBigPara{
+  text-align: center;
+  word-break: break-all;
+}
+
+.useBigContent{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.useBigHead{
+    font-size: 44px;
+    font-weight: 700;
+    color: #332C5C;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+ .useBigPara{
+    font-weight: 400;
+    font-size: 20px;
+    color: #4C4C4C;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}

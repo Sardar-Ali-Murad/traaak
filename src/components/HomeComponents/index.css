@@ -1,0 +1,25 @@
+.homeHead{
+    color: #332C5C;
+    font-family: "Nunito", sans-serif;
+     font-size: 44px;
+     font-weight: 700;
+}
+
+.homePara{
+    color: #4C4C4C;
+    font-family: "Nunito", sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.homeBtnCommon{
+    background: linear-gradient(180deg, #2e6073 0%, #214b5a 100%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    height: 40px;
+    width: 90px;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    margin-top: 10px;
+}

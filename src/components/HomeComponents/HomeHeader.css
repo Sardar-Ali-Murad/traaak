@@ -1,0 +1,103 @@
+.homeHeaderBigMain {
+  background-color: #a0ecd0;
+}
+
+.homeHeaderMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0px;
+}
+
+.headerIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.wordBox {
+  height: 40px;
+  width: 40px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word {
+  height: 20px;
+  width: 20px;
+}
+
+.traakLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.traak {
+  width: 90px;
+}
+
+.bar {
+  width: 40px;
+  height: 20px;
+}
+
+.headerHeading {
+  color: #11333f;
+  font-family: "Nunito", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  margin: 0px;
+  padding: 0px;
+  line-height: 50px;
+}
+
+.headerPara {
+  color: #4c4c4c;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  line-height: 50px;
+  line-height: 30px;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.homeHeaderContent {
+  text-align: center;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.homeBtn {
+  background: linear-gradient(180deg, #2e6073 0%, #214b5a 100%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  height: 40px;
+  width: 90px;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+
+.headerImg{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+}

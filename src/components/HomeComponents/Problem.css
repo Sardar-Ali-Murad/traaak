@@ -1,0 +1,82 @@
+.problemBigMain{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0px;
+}
+
+.problemImages{
+    position: relative;
+    flex: 1;
+    /* width: 30%; */
+    /* background-color: red; */
+}
+
+.base{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+}
+
+.group{
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+
+.problemMain{
+    margin: 200px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+
+
+.hBar{
+position: absolute;
+left: -30px;
+bottom:  -40px;
+width: 100px;
+}
+
+.vBar{
+    position: absolute;
+    right: -10px;
+    bottom:  -80px;
+    width: 70px;
+}
+
+.problemContent{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.problemContent h1{
+    color: #332C5C;
+    font-family: "Nunito", sans-serif;
+     font-size: 44px;
+     font-weight: 700;
+}
+.problemContent p{
+    color: #4C4C4C;
+    font-family: "Nunito", sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+
+@media screen and (max-width:950px) {
+    .problemMain{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,29 @@
+.integrationBigMain{
+width: 80%;
+margin-left: 50%;
+transform: translateX(-50%);
+margin-bottom: 100px;
+}
+
+.integrationMain{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 70px;
+}
+
+.integrationContent{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 4px;
+}
+
+.integrationImage img{
+    width: 100%;
+}
+
+@media screen and (max-width:1000px){
+   .integrationMain{
+      grid-template-columns: 1fr;
+   }
+}
