@@ -4,7 +4,7 @@ import Navbar from '../components/CommonComponents/Navbar'
 const About = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar text="About Us"/>
     </div>
   )
 }

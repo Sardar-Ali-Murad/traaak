@@ -2,13 +2,98 @@
 background-color: #A0ECD0;
 }
 
-.navbarMain{
 
-}
 
 .navBarIcons{
    width: 80%;
    margin-left: 50%;
    transform: translateX(-50%);
    padding-top: 36px;
+}
+
+.navbarImages{
+   width: 90%;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   padding-bottom: 100px;
+   /* padding-top: 100px; */
+}
+
+.navbarImg2{
+   position: relative;
+   top: 40px;
+   left: 20px;
+   z-index: -2
+}
+.navbarImg1{
+   position: relative;
+   top: -20px;
+}
+.navbarImg3{
+   position:absolute;
+   right: 780px;
+   top: 50px;
+   width: 30px;
+   z-index: -2
+}
+.navbarImg7{
+  position:absolute;
+  right: 300px;
+  top: 30px;
+  width: 150px;
+  z-index: -2
+
+}
+.navbarImg8{
+  position:absolute;
+  top: 200px;
+  z-index: -2
+
+}
+.navbarImg9{
+  position:absolute;
+  right: 10px;
+  z-index: -2
+
+}
+.navbarImg5{
+  position:relative;
+  top: -70px;
+  width: 180px;
+  z-index: -2
+
+}
+.navbarImg6{
+  position:relative;
+  top: 90px;
+  width: 170px;
+  z-index: -2
+
+}
+.navbarImg4{
+  position:relative;
+  /* top: -160px; */
+  width: 200px;
+  top: 70px;
+  z-index: -2
+
+}
+
+.NavHeader{
+   color: #11333F;
+   font-size: 64px;
+   font-weight: 400;
+   font-family: 'Nunito', sans-serif;
+   text-align: center;
+   position: relative;
+   top: -100px;
+   font-weight: bolder;
+}
+
+
+
+@media screen and (max-width:900px) {
+   .navbarImg1{
+      display: none;
+   }
 }
