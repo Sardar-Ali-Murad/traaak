@@ -1,9 +1,12 @@
 import React from "react";
 import "./Use.css";
 import { UseData } from "./data";
+import Line from "../../assets/useLine.png"
 
 const Use = () => {
   return (
+    <div>
+        <img src={Line} className="useLine"/>
     <div className="useBigMain">
       <div className="useMain">
         <div className="useBigContent">
@@ -16,13 +19,13 @@ const Use = () => {
         </div>
         <div className="useBoxes">
             {
-                Use.map((item)=>{
+                UseData.map((item)=>{
                     return <div className="useBox">
                            <h1>{item.head}</h1>
-                           <div>
+                           <div className="useBullets">
                             {
                                 item.points.map((text)=>{
-                                    return <div>
+                                    return <div className="useBullet">
                                         <div className="dot"></div>
                                         <p>{text}</p>
                                     </div>
@@ -34,7 +37,9 @@ const Use = () => {
             }
         </div>
       </div>
+      <button className="homeBtnCommon useBtn">Book a Demo</button>
     </div>
+                                        </div>
   );
 };
 

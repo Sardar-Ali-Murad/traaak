@@ -1,2 +1,5 @@
 import Home from "./Home"
-export {Home}
+import About from "./About"
+
+
+export {Home,About}

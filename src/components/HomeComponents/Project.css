@@ -21,6 +21,27 @@
     gap: 4px;
 }
 
+.projectImage{
+    position: relative;
+}
+
+.pLine{
+    position: absolute;
+    z-index: -2;
+    top: 200px;
+    left: -300px;
+}
+
+.projectMain{
+    position: relative;
+}
+
+.projectVBar{
+    right: 450px;
+    position: absolute;
+    top: -40px;
+}
+
 @media screen and (max-width:1000px){
     .projectMain{
         grid-template-columns: 1fr;

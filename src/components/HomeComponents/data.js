@@ -43,7 +43,7 @@ let compare=[
   },
 ]
 
-let Use=[
+let UseData=[
   {
     head:"Small Business",
     points:["Sole business to business owners","Currently manages customer activities with spreadsheets and non-cloud applications"]

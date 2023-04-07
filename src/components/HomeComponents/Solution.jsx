@@ -2,9 +2,12 @@ import React from "react";
 import "./Solution.css";
 import { solutionData } from "./data";
 import solImg from "../../assets/Solution.png";
+import line from "../../assets/solutionLine.png"
 
 const Solution = () => {
   return (
+    <div>
+      <img src={line} className="solutionLine"/>
     <div className="solutionBigMain">
       <div className="solutionMain">
         <div className="solutionContent">
@@ -41,6 +44,7 @@ const Solution = () => {
         </div>
       </div>
     </div>
+            </div>
   );
 };
 

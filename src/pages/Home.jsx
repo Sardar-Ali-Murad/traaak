@@ -1,5 +1,6 @@
 import React from 'react'
 import {HomeHeader,Problem,Solution,Customer,Project,Intergration,SnapShot,Compare,Use}  from "../components/HomeComponents/index"
+import Footer from "../components/CommonComponents/Footer"
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <SnapShot/>
       <Compare/>
       <Use/>
+      <Footer/>
     </div>
   )
 }

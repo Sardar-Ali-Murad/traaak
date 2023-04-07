@@ -1,11 +1,15 @@
 import React from 'react'
 import "./SnapShot.css"
 import Img from "../../assets/snapShot.png"
+// import hBar from "../../assets/horizontalBar.png"
+import vBar from "../../assets/verticalBar.png"
 
 const SnapShot = () => {
   return (
     <div className='snapShotBigMain'>
         <div className='snapShopMain'>
+            <img src={vBar} className='snapMiddleBar'/>
+            <img src={vBar} className='snapTopBar'/>
            <div className='snapShotImage'>
                 <img src={Img}/>               
            </div>

@@ -4,6 +4,7 @@ import base from "../../assets/Base.png";
 import group from "../../assets/Group.png";
 import HBar from "../../assets/horizontalBar.png";
 import VBar from "../../assets/verticalBar.png";
+import line from "../../assets/problemLine.png"
 
 const Problem = () => {
   return (
@@ -11,6 +12,7 @@ const Problem = () => {
       <div className="problemMain">
 
         <div className="problemImages">
+          <img src={line} className="problemLine"/>
             <img src={base} className="base"/>
             <img src={group} className="group"/>
             <img src={HBar} className="hBar"/>

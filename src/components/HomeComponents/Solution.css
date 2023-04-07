@@ -5,6 +5,12 @@
     margin-bottom: 200px;
 }
 
+.solutionLine{
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+}
+
 .solutionMain{
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */

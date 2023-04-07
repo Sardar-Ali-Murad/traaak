@@ -1,0 +1,87 @@
+.footerMain{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.footerBigMain{
+    background-color: #A0ECD0;
+    padding: 70px 0px;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerLinks h1{
+    color: #332C5C;
+    font-size: 24px;
+   font-weight: 700;
+   font-family: 'Nunito', sans-serif;
+}
+
+.footerLinks p{
+    color: #494369;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footerFirst p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #494369;
+  font-family: 'Nunito', sans-serif;
+}
+
+.footerFirst{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footerParas{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footerEnd{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background: linear-gradient(180deg, #2E6073 0%, #214B5A 100%);
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
+}
+
+.footerEnd p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width:1000px) {
+    .footerGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:700px) {
+    .footerGrid{
+        grid-template-columns: 1fr;
+    }
+    .footerEnd{
+        flex-direction: column;
+    }
+    .footerEnd p{
+        margin-bottom: 7px;
+    }
+}

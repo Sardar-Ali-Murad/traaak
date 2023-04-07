@@ -17,6 +17,39 @@
     justify-content: center;
 }
 
+.snapShotImage{
+    position: relative;
+}
+
+
+.snapShopMain{
+    position: relative;
+}
+
+.snapShotImage{
+    /* box-shadow: 1px 1px 1px 1px #A0ECD0; */
+    /* box-shadow:  -10px -10px 20px #A0ECD0; */
+}
+
+.snapMiddleBar{
+       position: absolute;
+       width: 100px;
+       position: absolute;
+       top: 140px;
+       left: -30px;
+       z-index: -5;
+}
+
+.snapTopBar{
+    /* height: 100px; */
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: 140px;
+    /* z-index: -5; */
+}
+
+
 @media screen and (max-width:1000px){
     .snapShopMain{
         grid-template-columns: 1fr;

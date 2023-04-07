@@ -2,9 +2,12 @@ import React from 'react'
 import "./Customer.css"
 import Img from "../../assets/customer.png"
 import hBar from "../../assets/horizontalBar.png"
+import Line from "../../assets/cLine.png"
 
 const Customer = () => {
   return (
+    <div className='customPosition'>
+      <img src={hBar} className='customerBarsMainImage'/>
     <div className='customerBigMain'>
         <div className='customerMain'>
             <div className='customerContent'>
@@ -13,10 +16,13 @@ const Customer = () => {
            <button className='homeBtnCommon'>Book a Demo</button>
             </div>
             <div className='customerImages'>
+              <img src={Line} className='cLine'/>
                 <img src={Img} className='mainImg'/>
                 <img src={hBar} className='customerBars'/>
+                <img src={hBar} className='customerBarsBotton'/>
             </div>
         </div>
+    </div>
     </div>
   )
 }

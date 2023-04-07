@@ -1,12 +1,16 @@
 import React from 'react'
 import Img from "../../assets/Integration.png"
 import "./Integration.css"
+import Line from "../../assets/iLine.png"
+import hBar from "../../assets/verticalBar.png"
 
 const Intergration = () => {
   return (
     <div className='integrationBigMain'>
       <div className='integrationMain'>
+          <img src={hBar} className='iBars'/>
          <div className='integrationImage'>
+          <img src={Line} className='iLine'/>
              <img src={Img}/>
          </div>
          <div className='integrationContent'>

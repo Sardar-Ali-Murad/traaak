@@ -1,0 +1,14 @@
+.navbarBigMain{
+background-color: #A0ECD0;
+}
+
+.navbarMain{
+
+}
+
+.navBarIcons{
+   width: 80%;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   padding-top: 36px;
+}

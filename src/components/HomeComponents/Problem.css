@@ -12,6 +12,13 @@
     /* background-color: red; */
 }
 
+.problemLine{
+    position: absolute;
+    right: 40px;
+    top: -60px;
+    z-index: -1
+}
+
 .base{
   position: absolute;
   top: 0;
