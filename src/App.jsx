@@ -1,5 +1,5 @@
 import React from 'react'
-import {Home,About,Pricing}  from "./pages/index"
+import {Home,About,Pricing,Testimonial}  from "./pages/index"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 const App = () => {
@@ -10,6 +10,7 @@ const App = () => {
         <Route path="/"  element={<Home/>}/>
         <Route path="/about"  element={<About/>}/>
         <Route path="/pricing"  element={<Pricing/>}/>
+        <Route path="/testimonials"  element={<Testimonial/>}/>
       </Routes>
       </BrowserRouter>
     </div>
