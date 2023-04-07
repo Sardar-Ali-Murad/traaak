@@ -1,0 +1,130 @@
+.blogBigMain{
+    padding: 40px 0px;
+}
+
+.blogHeaderMain{
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #332C5C;
+    /* font-size: 30px; */
+    /* font-weight: 800; */
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: bolder; */
+}
+
+.blogSearchBar{
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+}
+
+.placeholderBlog{
+    position: relative;
+    top: 5px;
+}
+
+.blogText{
+    width: 200px;
+    height: 40px;
+    background: #FFFFFF;
+border: 1px solid #3A606E;
+box-shadow: 4px 2px 15px rgba(58, 96, 110, 0.06);
+border-radius: 8px;
+outline: none;
+font-family: 'Nunito', sans-serif;
+padding: 0px 30px;
+}
+
+.blogSearch{
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 20px;
+}
+
+.blogBtn{
+    width: 140px;
+}
+
+.blogSearchBar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blogsGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(27rem,1fr));
+    gap: 20px;
+    width: 80%;margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 70px;
+}
+
+.singleBlog img{
+  width: 100%;
+}
+
+.singleBlog h3{
+    color: #2C2C2C;
+    font-family: 'Nunito', sans-serif;
+}
+.singleBlog h1{
+    color: #332C5C;
+    font-family: 'Nunito', sans-serif;
+}
+.singleBlog p{
+    color: #4C4C4C;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+.paginationBlog{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .blogSearchBar{
+        width: 60%;
+    }
+}
+@media screen and (max-width:700px){
+    .blogHeaderMain{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .blogHeaderMain{
+        width: 90%;
+    }
+}
+@media screen and (max-width:650px){
+    .blogSearchBar{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:700px){
+    .singleBlog{
+        width: 90%;
+    }
+    .blogsGrid{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .singleBlog{
+        width: 80%;
+    }
+}
+@media screen and (max-width:380px){
+    .singleBlog{
+        width: 70%;
+    }
+}

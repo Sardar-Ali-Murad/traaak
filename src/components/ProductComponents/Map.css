@@ -1,0 +1,23 @@
+.mapMain{
+    background-color: #ECFBF6;
+    padding: 30px 0px;
+}
+
+.mapMain h1{
+    text-align: center;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #332C5C;
+    font-family: 'Poppins', sans-serif;
+    /* margin-top: 80px; */
+}
+.mapImage{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+.mapImage img{
+    width: 100%;
+}
