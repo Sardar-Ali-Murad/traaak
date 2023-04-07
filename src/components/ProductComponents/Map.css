@@ -3,7 +3,7 @@
     padding: 30px 0px;
 }
 
-.mapMain h1{
+.mapMain h2{
     text-align: center;
     width: 60%;
     margin-left: 50%;
@@ -21,3 +21,67 @@
 .mapImage img{
     width: 100%;
 }
+
+.mapImage{
+    position: relative;
+}
+
+.mapMain{
+    position: relative;
+}
+
+.c1{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 44%;
+left: 16%;
+}
+.c2{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 30%;
+    left: 37%;
+}
+.c3{
+ position: absolute;
+ height: 30px;
+    width: 30px;
+}
+.c4{
+ position: absolute;
+ height: 30px;
+    width: 30px;
+}
+.c5{
+    position: absolute;
+    height: 30px;
+    width: 30px;}
+.c6{
+    position: absolute;
+    height: 30px;
+    width: 30px;}
+.c7{
+    position: absolute;
+    width: 20px;
+}
+.c8{
+    position: absolute;
+    height: 30px;
+    width: 30px;}
+
+    .mapImageWrapper{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapImageWrapper img{
+        width: 30px;
+        height: 30px;
+    }
