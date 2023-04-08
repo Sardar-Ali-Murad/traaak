@@ -16,7 +16,7 @@ const Compare = () => {
             achieves more for less.
           </p>
         </div>
-      </div>
+      {/* </div> */}
       <div className="compareBoxes">
         {compare.map((item) => {
           // return <div className="singleCompareBox">
@@ -40,9 +40,10 @@ const Compare = () => {
               </div>
             </div>
             // </div>
-          );
-        })}
+            );
+          })}
       </div>
+          </div>
     </div>
   );
 };

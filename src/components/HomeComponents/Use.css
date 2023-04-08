@@ -94,6 +94,8 @@
   position: absolute;
 }
 
+
+
 @media screen and (max-width: 1000px) {
   .useBoxes {
     grid-template-columns: 1fr 1fr;

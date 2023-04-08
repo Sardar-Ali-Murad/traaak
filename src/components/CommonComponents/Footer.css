@@ -92,6 +92,7 @@
   }
   .footerEnd {
     flex-direction: column;
+    padding: 20px 30px;
   }
   .footerEnd p {
     margin-bottom: 7px;

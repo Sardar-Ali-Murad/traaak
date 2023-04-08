@@ -103,3 +103,16 @@
     width: 100%;
   }
 }
+
+
+@media screen and (max-width:500px) {
+  .compareBigMain{
+    width: 90%;
+  }
+  .compareBoxes{
+    width: 70%;
+  }
+  .compareMain{
+    width: 96%;
+  }
+}
