@@ -1,51 +1,51 @@
-.integrationBigMain{
-width: 80%;
-margin-left: 50%;
-transform: translateX(-50%);
-margin-bottom: 100px;
+.integrationBigMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
 }
 
-.integrationMain{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   gap: 70px;
+.integrationMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
 }
 
-.integrationContent{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   gap: 4px;
+.integrationContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 
-.integrationImage img{
-    width: 100%;
+.integrationImage img {
+  width: 100%;
 }
 
-.integrationMain{
-   position: relative;
+.integrationMain {
+  position: relative;
 }
 
-.iBars{
-position: absolute;
-top: -70px;
-left: 170px;
-/* top: -300px; */
+.iBars {
+  position: absolute;
+  top: -70px;
+  left: 170px;
+  /* top: -300px; */
 }
 
-.integrationImage{
- position: relative;
+.integrationImage {
+  position: relative;
 }
 
-.iLine{
-   position: absolute;
-   top: 300px;
-   left: 300px;
-   z-index: -2;
+.iLine {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  z-index: -2;
 }
 
-@media screen and (max-width:1000px){
-   .integrationMain{
-      grid-template-columns: 1fr;
-   }
+@media screen and (max-width: 1000px) {
+  .integrationMain {
+    grid-template-columns: 1fr;
+  }
 }

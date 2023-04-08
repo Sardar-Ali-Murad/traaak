@@ -103,14 +103,20 @@
   height: 30px;
 }
 
-
-@media screen and (max-width:700px) {
-    .mapImageWrapper{
-        width: 10px;
-        height: 10px;
-    }
-    .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8{
-        width: 5px;
-        height: 5px;
-    }
+@media screen and (max-width: 700px) {
+  .mapImageWrapper {
+    width: 10px;
+    height: 10px;
+  }
+  .c1,
+  .c2,
+  .c3,
+  .c4,
+  .c5,
+  .c6,
+  .c7,
+  .c8 {
+    width: 5px;
+    height: 5px;
+  }
 }

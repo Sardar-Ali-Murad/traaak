@@ -3,16 +3,16 @@ import "./HomeHeader.css";
 import bar from "../../assets/bar.png";
 import Word from "../../assets/T.png";
 import Traak from "../../assets/Traaak.png";
-import HeaderImg from "../../assets/headerImg.png"
-import line from "../../assets/headerLine.png"
+import HeaderImg from "../../assets/headerImg.png";
+import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
 
 const HomeHeader = () => {
-  let [open,setOpen]=React.useState(false)
+  let [open, setOpen] = React.useState(false);
   return (
     <div className="homeHeaderBigMain">
-      <Contact open={open} setOpen={setOpen}/>
-      <img src={line} className="headerLine"/>
+      <Contact open={open} setOpen={setOpen} />
+      <img src={line} className="headerLine" />
       <div className="homeHeaderMain">
         <div className="headerIcons">
           <div className="traakLogo">
@@ -36,13 +36,13 @@ const HomeHeader = () => {
             what is important.{" "}
           </p>
         </div>
-        <button className="homeBtn" onClick={()=>setOpen(true)}>Book a Demo</button>
+        <button className="homeBtn" onClick={() => setOpen(true)}>
+          Book a Demo
+        </button>
 
         <div>
-            <img src={HeaderImg} className="headerImg"/>
+          <img src={HeaderImg} className="headerImg" />
         </div>
-
-
       </div>
     </div>
   );

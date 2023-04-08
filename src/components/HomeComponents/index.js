@@ -8,4 +8,14 @@ import SnapShot from "./SnapShot";
 import Compare from "./Compare";
 import Use from "./Use";
 
-export {HomeHeader,Problem,Solution,Customer,Project,Intergration,SnapShot,Compare,Use}
+export {
+  HomeHeader,
+  Problem,
+  Solution,
+  Customer,
+  Project,
+  Intergration,
+  SnapShot,
+  Compare,
+  Use,
+};

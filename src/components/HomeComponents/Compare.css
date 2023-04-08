@@ -1,106 +1,105 @@
-.compareBigMain{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 50px;
-    margin-bottom: 60px;
+.compareBigMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
-.compareMain .compareSmallHeader{
-    font-size: 44px;
-    font-weight: 700;
-    color: #332C5C;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
+.compareMain .compareSmallHeader {
+  font-size: 44px;
+  font-weight: 700;
+  color: #332c5c;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
-.compareFirstContent{
-   width: 80%;
-   margin-left: 50%;
-   transform: translateX(-50%);
-}
-
-.compareBigMain .smallContent{
-    font-weight: 400;
-    font-size: 20px;
-    color: #4C4C4C;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
+.compareFirstContent {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
-.compareBoxes{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 70px;
-    margin-top: 30px;
+.compareBigMain .smallContent {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4c4c4c;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 
+.compareBoxes {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+  margin-top: 30px;
+}
 
-.singleCompareBox{
-    background-color: #ECFBF6;
-    padding: 30px;
+.singleCompareBox {
+  background-color: #ecfbf6;
+  padding: 30px;
+  width: 100%;
+}
+
+.compareHeader {
+  color: #090f4e;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.tickContent {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.tickBox {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tickContent {
+  color: #63657e;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.singleCompareBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.compareBigImg {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .compareBoxes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .compareBoxes {
+    grid-template-columns: 1fr;
+  }
+  .compareFirstContent {
     width: 100%;
-}
-
-.compareHeader{
-    color: #090F4E;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    width: 100%;
-    word-wrap: break-word;
-}
-
-.tickContent{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 10px;
-}
-
-.tickBox{
-    width: 20px;
-    height: 20px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tickContent{
-    color: #63657E;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Nunito', sans-serif;
-}
-
-.singleCompareBox{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.compareBigImg{
-    height: 70px;
-    width: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-}
-
-@media screen and (max-width:900px) {
-    .compareBoxes{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media screen and (max-width:700px) {
-    .compareBoxes{
-        grid-template-columns: 1fr;
-    }
-    .compareFirstContent{
-        width: 100%;
-    }
+  }
 }

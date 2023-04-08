@@ -1,108 +1,106 @@
-.testimonialMain{
-    padding: 100px;
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-areas: "c1 c2 c3"
+.testimonialMain {
+  padding: 100px;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-areas: "c1 c2 c3"
     " c4 c2 c6"
     "c4 c5 c6"
     ". c5 ."
     ; */
-    gap: 20px;
-    margin-bottom: 30px;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
-.testimonialCard{
-    background: #FFFFFF;
-border: 2px solid #A0ECD0;
-box-shadow: -40px 60px 120px rgba(160, 236, 208, 0.2);
-border-radius: 15px;
-padding: 15px;
+.testimonialCard {
+  background: #ffffff;
+  border: 2px solid #a0ecd0;
+  box-shadow: -40px 60px 120px rgba(160, 236, 208, 0.2);
+  border-radius: 15px;
+  padding: 15px;
 }
 
-
-
-.card2{
-    height: 107%;
+.card2 {
+  height: 107%;
 }
-.card5{
-    height: 103%;
-    margin-top: 70px;
+.card5 {
+  height: 103%;
+  margin-top: 70px;
 }
 
-.testimonialCard p{
-    font-size: 17px;
-    font-weight: 600;
-    color: #332C5C;
-    font-family: 'Poppins', sans-serif;
+.testimonialCard p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #332c5c;
+  font-family: "Poppins", sans-serif;
 }
-.testimonialCard h2{
-    font-size: 24px;
-    font-weight: 600;
-    color: #2C2C2C;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    font-weight: bold;
+.testimonialCard h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c2c2c;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-weight: bold;
 }
-.testimonialCard h3{
-    font-size: 16px;
-    font-weight: 400;
-    color: #4C4C4C;
-    font-family: 'Poppins', sans-serif;
-}
-
-.testimonialBoxSmall{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    margin-top: 20px;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-color: #A0ECD0;
-    justify-content: center;
-    align-items: center;
-    -webkit-box-shadow: 0 0 14px #CCFBE9;
-        box-shadow: 0 0 30px #CCFBE9;
+.testimonialCard h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-family: "Poppins", sans-serif;
 }
 
-.testimonialBox{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.testimonialBoxSmall {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #a0ecd0;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0 0 14px #ccfbe9;
+  box-shadow: 0 0 30px #ccfbe9;
 }
 
-.testimonialBoxSmall h1{
-    color: #2C2C2C;
-    font-size: 44px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+.testimonialBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-@media screen and (max-width:1000px) {
-    .testimonialMain{
-        grid-template-columns: 1fr 1fr;
-    }
-    .card4{
-        margin-top: 60px;
-    }
-    .card5{
-        height: 100% !important;
-        margin-top: 0px !important;
-    }
+.testimonialBoxSmall h1 {
+  color: #2c2c2c;
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
 }
 
-.testimonialBtn{
- margin-top: 40px;
- margin-bottom: 40px;
- margin-left: 50%;
- transform: translateX(-50%);
+@media screen and (max-width: 1000px) {
+  .testimonialMain {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card4 {
+    margin-top: 60px;
+  }
+  .card5 {
+    height: 100% !important;
+    margin-top: 0px !important;
+  }
 }
 
-@media screen and (max-width:700px) {
-    .testimonialMain{
-        grid-template-columns: 1fr;
-    }
+.testimonialBtn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 700px) {
+  .testimonialMain {
+    grid-template-columns: 1fr;
+  }
 }

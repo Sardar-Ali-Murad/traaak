@@ -14,7 +14,7 @@ import img7 from "../../assets/nav7.png";
 import img8 from "../../assets/nav8.png";
 import img9 from "../../assets/nav9.png";
 
-const Navbar = ({text}) => {
+const Navbar = ({ text }) => {
   return (
     <div className="navbarBigMain">
       <div className="navbarMain">
@@ -31,15 +31,15 @@ const Navbar = ({text}) => {
         </div>
 
         <div className="navbarImages">
-          <img src={img1} className="navbarImg1"/>
-          <img src={img2} className="navbarImg2"/>
-          <img src={img3} className="navbarImg3"/>
-          <img src={img4} className="navbarImg4"/>
-          <img src={img5} className="navbarImg5"/>
-          <img src={img6} className="navbarImg6"/>
-          <img src={img7} className="navbarImg7"/>
-          <img src={img8} className="navbarImg8"/>
-          <img src={img9} className="navbarImg9"/>
+          <img src={img1} className="navbarImg1" />
+          <img src={img2} className="navbarImg2" />
+          <img src={img3} className="navbarImg3" />
+          <img src={img4} className="navbarImg4" />
+          <img src={img5} className="navbarImg5" />
+          <img src={img6} className="navbarImg6" />
+          <img src={img7} className="navbarImg7" />
+          <img src={img8} className="navbarImg8" />
+          <img src={img9} className="navbarImg9" />
         </div>
         <h1 className="NavHeader">{text}</h1>
       </div>

@@ -1,49 +1,49 @@
-.projecrBigMain{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 70px;
+.projecrBigMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 70px;
 }
-.projectMain{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 70px;
-}
-
-.projectImage img{
-    width: 100%;
+.projectMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
 }
 
-.projectContent{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 4px;
+.projectImage img {
+  width: 100%;
 }
 
-.projectImage{
-    position: relative;
+.projectContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.pLine{
-    position: absolute;
-    z-index: -2;
-    top: 200px;
-    left: -300px;
+.projectImage {
+  position: relative;
 }
 
-.projectMain{
-    position: relative;
+.pLine {
+  position: absolute;
+  z-index: -2;
+  top: 200px;
+  left: -300px;
 }
 
-.projectVBar{
-    right: 450px;
-    position: absolute;
-    top: -40px;
+.projectMain {
+  position: relative;
 }
 
-@media screen and (max-width:1000px){
-    .projectMain{
-        grid-template-columns: 1fr;
-    }
+.projectVBar {
+  right: 450px;
+  position: absolute;
+  top: -40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projectMain {
+    grid-template-columns: 1fr;
+  }
 }

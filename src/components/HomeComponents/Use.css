@@ -1,110 +1,107 @@
-.useBigMain{
-   width: 80%;
-   margin-left: 50%;
-   transform: translateX(-50%);
-   margin-bottom: 60px;
+.useBigMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 60px;
 }
 
-.userBigHead{
-   text-align: center;
+.userBigHead {
+  text-align: center;
 }
 
-.userBigPara{
+.userBigPara {
   text-align: center;
   word-break: break-all;
 }
 
-.useBigContent{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+.useBigContent {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
-.useBigHead{
-    font-size: 44px;
-    font-weight: 700;
-    color: #332C5C;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
+.useBigHead {
+  font-size: 44px;
+  font-weight: 700;
+  color: #332c5c;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 
- .useBigPara{
-    font-weight: 400;
-    font-size: 20px;
-    color: #4C4C4C;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
+.useBigPara {
+  font-weight: 400;
+  font-size: 20px;
+  color: #4c4c4c;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 
-.useBoxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    margin-top: 24px;
+.useBoxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 24px;
 }
 
-.useBox{
-    background-color: #ECFBF6;
-    padding: 15px;
+.useBox {
+  background-color: #ecfbf6;
+  padding: 15px;
 }
 
-.useBox h1{
-    color: #090F4E;
-    font-size: 20px;
-    font-weight: 1000;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 4px;
+.useBox h1 {
+  color: #090f4e;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4px;
 }
 
-.useBullets{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.useBullets {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.useBullet{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.useBullet {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-.dot{
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, #2E6073 0%, #214B5A 100%);
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2e6073 0%, #214b5a 100%);
 }
 
-.useBullet p{
-    color: #63657E;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+.useBullet p {
+  color: #63657e;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.useBtn{
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30px;
+.useBtn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
 }
 
-.useLine{
- width: 100%;
- z-index: -2;
- position: absolute;   
+.useLine {
+  width: 100%;
+  z-index: -2;
+  position: absolute;
 }
 
-
-@media screen and (max-width:1000px) {
-    .useBoxes{
-        grid-template-columns: 1fr 1fr;
-    }
+@media screen and (max-width: 1000px) {
+  .useBoxes {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-
-@media screen and (max-width:700px) {
-    .useBoxes{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 700px) {
+  .useBoxes {
+    grid-template-columns: 1fr;
+  }
 }
-

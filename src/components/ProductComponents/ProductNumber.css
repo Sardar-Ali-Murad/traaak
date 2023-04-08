@@ -1,60 +1,60 @@
-.productNumberBigMain{
-    background-color: #ECFBF6;
+.productNumberBigMain {
+  background-color: #ecfbf6;
 }
 
-.productNumberMain{
-    padding: 50px 0px;
-    width: 60%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.productNumberMain {
+  padding: 50px 0px;
+  width: 60%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.numberImg{
-    height: 70px;
-    width: 70px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.numberImg {
+  height: 70px;
+  width: 70px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.numberImg img{
-    width: 30px;
+.numberImg img {
+  width: 30px;
 }
 
-.singleNumber{
-    display: flex;
-    gap: 20px;
+.singleNumber {
+  display: flex;
+  gap: 20px;
 }
 
-.numberContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.numberContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.numberContent h2{
-  color: #332C5C;
-  font-family: 'Nunito', sans-serif;
+.numberContent h2 {
+  color: #332c5c;
+  font-family: "Nunito", sans-serif;
 }
-.numberContent p{
-  color: #5E587A;
-  font-family: 'Nunito', sans-serif;
+.numberContent p {
+  color: #5e587a;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
 }
 
-@media screen and (max-width:1000px) {
-    .productNumberMain{
-        grid-template-columns: 1fr 1fr;
-    }
-    .singleNumber{
-        margin-top: 10px;
-    }
+@media screen and (max-width: 1000px) {
+  .productNumberMain {
+    grid-template-columns: 1fr 1fr;
+  }
+  .singleNumber {
+    margin-top: 10px;
+  }
 }
-@media screen and (max-width:800px) {
-    .productNumberMain{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 800px) {
+  .productNumberMain {
+    grid-template-columns: 1fr;
+  }
 }

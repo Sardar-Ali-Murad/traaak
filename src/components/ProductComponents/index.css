@@ -1,38 +1,37 @@
-.pContentBigMain{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
+.pContentBigMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
-.pContentMain{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 50px 0px;
-}
-
-.text{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.pContentMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 0px;
 }
 
-.text h1{
-    color: #332C5C;
-    font-family: 'Nunito', sans-serif;
+.text {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.text p{
-    color: #4C4C4C;
-    font-family: 'Nunito', sans-serif;
-
+.text h1 {
+  color: #332c5c;
+  font-family: "Nunito", sans-serif;
 }
 
-.pContentImg img{
-    width: 100%;
+.text p {
+  color: #4c4c4c;
+  font-family: "Nunito", sans-serif;
 }
 
-@media screen and (max-width:1000px){
-    .pContentMain{
-        grid-template-columns: 1fr;
-    }
+.pContentImg img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .pContentMain {
+    grid-template-columns: 1fr;
+  }
 }

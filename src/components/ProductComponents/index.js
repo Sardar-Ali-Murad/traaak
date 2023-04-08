@@ -4,4 +4,4 @@ import ProductContent from "./ProductContent";
 import Vedio from "./Vedio";
 import Map from "./Map";
 
-export {ProductHeader,ProductNumbers,ProductContent,Vedio,Map}
+export { ProductHeader, ProductNumbers, ProductContent, Vedio, Map };

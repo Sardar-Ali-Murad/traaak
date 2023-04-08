@@ -22,7 +22,7 @@ const TimeLine = () => {
           contentStyle={{ background: "red" }}
           className="costum-line"
           lineColor="#00CCB3"
->
+        >
           <VerticalTimelineElement
             className="vertical-timeline-element--work costum-line costum-line"
             date="2021"
@@ -31,12 +31,11 @@ const TimeLine = () => {
             position="right"
           >
             <div className="timelineWrapper">
-            <h1>
-            Lorem ipsum dolor sit amet
-            </h1>
-            <p>
-            Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est. Pellentesque sed neque at ipsum congue tincidunt.
-            </p>
+              <h1>Lorem ipsum dolor sit amet</h1>
+              <p>
+                Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est.
+                Pellentesque sed neque at ipsum congue tincidunt.
+              </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -47,13 +46,12 @@ const TimeLine = () => {
             dateClassName="date2"
             iconClassName="icon2"
           >
-          <div className="timelineWrapper">
-            <h1>
-            Lorem ipsum dolor sit amet
-            </h1>
-            <p>
-            Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est. Pellentesque sed neque at ipsum congue tincidunt.
-            </p>
+            <div className="timelineWrapper">
+              <h1>Lorem ipsum dolor sit amet</h1>
+              <p>
+                Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est.
+                Pellentesque sed neque at ipsum congue tincidunt.
+              </p>
             </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -65,12 +63,11 @@ const TimeLine = () => {
             iconClassName="icon3"
           >
             <div className="timelineWrapper">
-            <h1>
-            Lorem ipsum dolor sit amet
-            </h1>
-            <p>
-            Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est. Pellentesque sed neque at ipsum congue tincidunt.
-            </p>
+              <h1>Lorem ipsum dolor sit amet</h1>
+              <p>
+                Aenean diam nunc, commodo ac nisi ut, facilisis lobortis est.
+                Pellentesque sed neque at ipsum congue tincidunt.
+              </p>
             </div>
           </VerticalTimelineElement>
         </VerticalTimeline>

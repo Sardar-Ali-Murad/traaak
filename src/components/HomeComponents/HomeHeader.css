@@ -10,11 +10,11 @@
   padding: 20px 0px;
 }
 
-.headerLine{
+.headerLine {
   position: absolute;
   width: 100%;
   /* z-index: -1; */
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .headerIcons {
@@ -103,29 +103,33 @@
   margin-top: 10px;
 }
 
-.headerImg{
-    width: 100%;
-    position: relative;
-    top: 100px;
-    margin-bottom: 10px;
+.headerImg {
+  width: 100%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 10px;
 }
 
 /* The Dialog Box CSS */
 
-.dialogBox{
-  background: linear-gradient(180deg, rgba(46, 96, 115, 0.7) 0%, rgba(33, 75, 90, 0.7) 100%);
-backdrop-filter: blur(4px);
+.dialogBox {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 96, 115, 0.7) 0%,
+    rgba(33, 75, 90, 0.7) 100%
+  );
+  backdrop-filter: blur(4px);
 }
 
-.dialogBoxHeader{
-  color: #332C5C;
+.dialogBoxHeader {
+  color: #332c5c;
   font-size: 37px;
   font-weight: 700;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   padding: 10px 20px;
 }
 
-.dialogBoxTextFieldsGrid{
+.dialogBoxTextFieldsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -133,64 +137,63 @@ backdrop-filter: blur(4px);
   width: 500px;
 }
 
-.dialogBoxTextField p{
+.dialogBoxTextField p {
   color: #152428;
   font-size: 14px;
   font-weight: 600;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.dialogBoxInput{
+.dialogBoxInput {
   height: 30px;
   width: 100%;
-  border: 1px solid #3A606E;
+  border: 1px solid #3a606e;
   padding: 1px 6px;
   border-radius: 5px;
-  color: #3A606E;
+  color: #3a606e;
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Nunito', sans-serif;
- outline: none;
+  font-family: "Nunito", sans-serif;
+  outline: none;
 }
 
-.contactBtn{
+.contactBtn {
   display: flex;
   justify-content: flex-end;
   padding: 5px 20px;
 }
 
-@media screen and (max-width:700px) {
- .dialogBoxTextFieldsGrid{
-  grid-template-columns: 1fr;
- } 
- .dialogBoxTextFieldsGrid{
-  width: 300px;
- }
+@media screen and (max-width: 700px) {
+  .dialogBoxTextFieldsGrid {
+    grid-template-columns: 1fr;
+  }
+  .dialogBoxTextFieldsGrid {
+    width: 300px;
+  }
 }
 
-@media screen and (max-width:430px) {
- .dialogBoxTextFieldsGrid{
-  width: 250px;
- }
+@media screen and (max-width: 430px) {
+  .dialogBoxTextFieldsGrid {
+    width: 250px;
+  }
 }
-
 
 /*  */
-@media screen and (max-width:900px) {
-  .headerHeading{
-     font-size: 40px;
+@media screen and (max-width: 900px) {
+  .headerHeading {
+    font-size: 40px;
   }
 
-  .headerPara{
-     font-size: 20px;
+  .headerPara {
+    font-size: 20px;
   }
 }
-@media screen and (max-width:700px) {
-  .headerHeading{
-     font-size: 30px;
+@media screen and (max-width: 700px) {
+  .headerHeading {
+    font-size: 30px;
   }
 
-  .headerPara{
-     font-size: 16px;
+  .headerPara {
+    font-size: 16px;
   }
 }

@@ -36,8 +36,6 @@ const PricingBody = () => {
                 </div>
               </div>
 
-
-
               <div className="pricingLine"></div>
 
               <div>
@@ -53,7 +51,11 @@ const PricingBody = () => {
                 })}
               </div>
 
-              <button className={`${item.dark?"activeBtnPricing":"pricingBtn"}`}>{item.btn}</button>
+              <button
+                className={`${item.dark ? "activeBtnPricing" : "pricingBtn"}`}
+              >
+                {item.btn}
+              </button>
             </div>
           );
         })}

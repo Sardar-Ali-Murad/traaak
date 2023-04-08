@@ -17,122 +17,120 @@
   text-align: center;
 }
 
-.timeline{
-    width: 80%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    padding: 35px 0px;
+.timeline {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 35px 0px;
 }
-.date1{
-    color: #C06EF3;
-    font-size: 70px;
-    font-weight: 700;
-    font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
-    font-size: 3rem;
-}
-
-.icon1{
-    width: 30px;
-    height: 10px;
-    background-color: #C06EF3;
-}
-.date2{
-    color: #FCA61F;
-    font-size: 70px;
-    font-weight: 700;
-    font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
-    font-size: 3rem;
+.date1 {
+  color: #c06ef3;
+  font-size: 70px;
+  font-weight: 700;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
 }
 
-.icon2{
-    width: 30px;
-    height: 10px;
-    background-color: #FCA61F;
+.icon1 {
+  width: 30px;
+  height: 10px;
+  background-color: #c06ef3;
+}
+.date2 {
+  color: #fca61f;
+  font-size: 70px;
+  font-weight: 700;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
 }
 
-.date3{
-    color: #00CCB3;
-    font-size: 70px;
-    font-weight: 700;
-    font-weight: bolder;
-    font-family: 'Nunito', sans-serif;
-    font-size: 3rem;
+.icon2 {
+  width: 30px;
+  height: 10px;
+  background-color: #fca61f;
 }
 
-
-.icon3{
-    width: 30px;
-    height: 10px;
-    background-color: #00CCB3;
+.date3 {
+  color: #00ccb3;
+  font-size: 70px;
+  font-weight: 700;
+  font-weight: bolder;
+  font-family: "Nunito", sans-serif;
+  font-size: 3rem;
 }
 
-
-
-
-
-.timelineWrapper{
-    background: #FFFFFF;
-box-shadow: -40px 60px 120px rgba(0, 204, 179, 0.2);
-border-radius: 8px;
-padding: 10px 40px;
+.icon3 {
+  width: 30px;
+  height: 10px;
+  background-color: #00ccb3;
 }
 
-.timelineWrapper h1{
-    color: #090F4E;
-    font-size: 22px;
-    font-weight: 700;
-    font-family: 'Nunito', sans-serif;
-    word-break: break-all;
-}
-.timelineWrapper p{
-    color: #63657E;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Nunito', sans-serif;
-    width: 100%;
-    word-break: break-all;
+.timelineWrapper {
+  background: #ffffff;
+  box-shadow: -40px 60px 120px rgba(0, 204, 179, 0.2);
+  border-radius: 8px;
+  padding: 10px 40px;
 }
 
+.timelineWrapper h1 {
+  color: #090f4e;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  word-break: break-all;
+}
+.timelineWrapper p {
+  color: #63657e;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  width: 100%;
+  word-break: break-all;
+}
 
 /* The Date Styles */
-.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date{
-    position: absolute;
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  position: absolute;
+  width: 102%;
+  left: 124%;
+  /* top: -39px; */
+  top: 66px;
+  font-size: 16px;
+  /* font-size: 3rem; */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* The Icon Styles */
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+  width: 12px;
+  height: 12px;
+  left: 52.5%;
+  margin-left: -30px;
+  /* top: 22px; */
+  top: 107px;
+  box-shadow: 0px 0px;
+}
+
+/* Removing the box shadow */
+.vertical-timeline-element-content {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1150px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    /* position: absolute; */
     width: 102%;
-    left: 124%;
-    /* top: -39px; */
-    top: 66px;
+    /* left: 124%; */
+    top: 30%;
     font-size: 16px;
-    /* font-size: 3rem; */
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 3rem;
+    /* font-weight: bold; */
   }
-
-  /* The Icon Styles */
-  .vertical-timeline--two-columns .vertical-timeline-element-icon {
-    width: 12px;
-    height: 12px;
-    left: 52.5%;
-    margin-left: -30px;
-    /* top: 22px; */
-    top: 107px;
-    box-shadow: 0px 0px;
-  }
-
-  /* Removing the box shadow */
-  .vertical-timeline-element-content{
-    box-shadow: 0px 0px 0px 0px;
-  }
-
-  @media screen and (max-width:1150px) {
-    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date{
-        /* position: absolute; */
-        width: 102%;
-        /* left: 124%; */
-        top: 30%;
-        font-size: 16px;
-        font-size: 3rem;
-        /* font-weight: bold; */
-      }
-  }
+}
