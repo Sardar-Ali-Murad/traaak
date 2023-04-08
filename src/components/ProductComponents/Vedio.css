@@ -27,29 +27,14 @@
   margin-top: 30px;
   margin-bottom: 40px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .VedioMain .img1 {
   width: 100%;
   height: 100%;
-}
-
-.pauseBox {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ccfbe9;
-  position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-  left: 50%;
-  transform: translateX(-50%);
-}
-.pauseBox img {
-  width: 40px;
 }
 
 .vedioOverlay {
@@ -58,4 +43,37 @@
   position: absolute;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
+}
+.pauseBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccfbe9;
+  position: absolute;
+  cursor: pointer;
+  /* top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);  */
+
+}
+.pauseBox img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+@media screen and (max-width:450px) {
+  .vedioMain h1{
+    width: 70%;
+  }
+}
+@media screen and (max-width:390px) {
+  .vedioMain h1{
+    width: 80%;
+  }
 }

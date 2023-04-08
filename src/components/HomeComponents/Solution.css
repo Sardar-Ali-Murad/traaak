@@ -94,7 +94,24 @@
 .snapShotImage img {
   width: 100%;
   margin-bottom: 100px;
+  box-shadow: -20px 50px  80px rgba(0, 204, 179, 0.2);
 }
+
+.solutionBtn{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+.solutionContent{
+  margin-bottom: 30px;
+}
+
+.solutionImage img{
+  box-shadow: -20px 50px  80px rgba(0, 204, 179, 0.2);
+
+}
+
 
 @media screen and (max-width: 1000px) {
   .solutionMain {

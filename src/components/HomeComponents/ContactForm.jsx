@@ -1,20 +1,20 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
 import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
+import { useSelector ,useDispatch} from "react-redux";
+import {closeContactForm}  from "../../features/appSlice"
 
-export default function Contact({ open, setOpen }) {
+export default function Contact() {
+  let dispatch=useDispatch()
+  let {contactForm}=useSelector((state)=>state.store)
+
   const handleClose = () => {
-    setOpen(false);
+    dispatch(closeContactForm())
   };
 
   return (
     <div>
       <Dialog
-        open={open}
+        open={contactForm}
         onClose={handleClose}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"

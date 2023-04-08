@@ -55,6 +55,8 @@
 
 .customerImages .mainImg {
   width: 100%;
+  box-shadow: -20px 50px  80px rgba(0, 204, 179, 0.2);
+
 }
 
 .customerImages {

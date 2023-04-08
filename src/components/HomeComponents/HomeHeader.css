@@ -35,6 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+   position: relative;
+   z-index: 20;
 }
 
 .word {
@@ -50,6 +52,8 @@
 
 .traak {
   width: 90px;
+  position: relative;
+  z-index: 20;
 }
 
 .bar {
@@ -108,6 +112,8 @@
   position: relative;
   top: 100px;
   margin-bottom: 10px;
+  box-shadow: -20px 50px  80px rgba(0, 204, 179, 0.2);
+
 }
 
 /* The Dialog Box CSS */

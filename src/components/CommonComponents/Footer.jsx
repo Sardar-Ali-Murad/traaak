@@ -3,8 +3,11 @@ import Word from "../../assets/T.png";
 import Traak from "../../assets/Traaak.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const Footer = () => {
+  let dispatch=useDispatch()
   return (
     <div>
       <div className="footerBigMain">
@@ -37,7 +40,9 @@ const Footer = () => {
                 <Link to="/about">
                   <p>About Us</p>
                 </Link>
-                <p>Contact Us</p>
+                <Link to="/"onClick={()=>dispatch(openContactForm())}>
+                  <p>Contact Us</p>
+                </Link>
               </div>
             </div>
 

@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.companyMain{
+  padding: 40px 0px;
+}
+
 .companyMain p {
   color: #4c4c4c;
   font-size: 20px;

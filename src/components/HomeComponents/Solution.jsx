@@ -43,6 +43,7 @@ const Solution = () => {
             <img src={solImg} />
           </div>
         </div>
+        <button className="homeBtnCommon solutionBtn">Book a Demo</button>
       </div>
     </div>
   );

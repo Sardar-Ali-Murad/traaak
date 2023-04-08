@@ -25,10 +25,7 @@
   position: relative;
 }
 
-.snapShotImage {
-  /* box-shadow: 1px 1px 1px 1px #A0ECD0; */
-  /* box-shadow:  -10px -10px 20px #A0ECD0; */
-}
+
 
 .snapMiddleBar {
   position: absolute;

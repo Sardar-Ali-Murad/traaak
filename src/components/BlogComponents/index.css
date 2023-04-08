@@ -10,8 +10,10 @@
   color: #332c5c;
   /* font-size: 30px; */
   /* font-weight: 800; */
-  font-family: "Poppins", sans-serif;
   /* font-weight: bolder; */
+  font-size: 44px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
 }
 
 .blogSearchBar {
@@ -83,11 +85,13 @@
   font-family: "Nunito", sans-serif;
   font-size: 20px;
 }
-.paginationBlog {
+
+
+.paginationWrapper{
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 50px;
-  text-align: center;
+  width: 80%;
 }
 
 @media screen and (max-width: 1000px) {

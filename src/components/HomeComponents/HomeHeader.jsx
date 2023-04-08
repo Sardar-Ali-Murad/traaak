@@ -8,10 +8,9 @@ import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
 
 const HomeHeader = () => {
-  let [open, setOpen] = React.useState(false);
   return (
     <div className="homeHeaderBigMain">
-      <Contact open={open} setOpen={setOpen} />
+      <Contact/>
       <img src={line} className="headerLine" />
       <div className="homeHeaderMain">
         <div className="headerIcons">

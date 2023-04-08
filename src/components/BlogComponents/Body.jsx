@@ -36,7 +36,10 @@ const Blog = () => {
         })}
       </div>
 
+      <div className="paginationWrapper">
       <Pagination count={10} color="primary" className="paginationBlog" />
+      </div>
+
     </div>
   );
 };

@@ -5,12 +5,15 @@
 
 .mapMain h2 {
   text-align: center;
-  width: 60%;
+  width: 70%;
   margin-left: 50%;
   transform: translateX(-50%);
   color: #332c5c;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   /* margin-top: 80px; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
 }
 .mapImage {
   width: 80%;
@@ -118,5 +121,24 @@
   .c8 {
     width: 5px;
     height: 5px;
+  }
+}
+
+
+@media screen and (max-width:900px) {
+  .mapMain h2{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .mapMain h2{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .mapMain h2{
+    font-size: 20px;
   }
 }

@@ -127,3 +127,15 @@ left: 35px;
     display: none;
   }
 }
+
+
+@media screen and (max-width:800px) {
+  .navbarImg7{
+    display: none;
+  }
+}
+@media screen and (max-width:450px) {
+  .navbarImg4{
+    position: absolute;
+  }
+}
