@@ -2,8 +2,11 @@ import React from "react";
 import "./Use.css";
 import { UseData } from "./data";
 import Line from "../../assets/useLine.png";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const Use = () => {
+  let dispatch=useDispatch()
   return (
     <div>
       <img src={Line} className="useLine" />
@@ -37,7 +40,7 @@ const Use = () => {
             })}
           </div>
         </div>
-        <button className="homeBtnCommon useBtn">Book a Demo</button>
+        <button className="homeBtnCommon useBtn" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
       </div>
     </div>
   );

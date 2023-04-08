@@ -6,8 +6,11 @@ import Traak from "../../assets/Traaak.png";
 import HeaderImg from "../../assets/headerImg.png";
 import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const HomeHeader = () => {
+  let dispatch=useDispatch()
   function openTraaak(){
     window.open("https://taaskclient.herokuapp.com/", '_blank')
   }
@@ -40,7 +43,7 @@ const HomeHeader = () => {
         </div>
 
         <div className="headerBtnsFlex">
-        <button className="homeBtn" onClick={() => setOpen(true)}>
+        <button className="homeBtn" onClick={()=>dispatch(openContactForm())}>
           Book a Demo
         </button>
         <button className="homeBtn" onClick={openTraaak}>

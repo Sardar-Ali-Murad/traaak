@@ -3,8 +3,11 @@ import "./SnapShot.css";
 import Img from "../../assets/snapShot.png";
 // import hBar from "../../assets/horizontalBar.png"
 import vBar from "../../assets/verticalBar.png";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const SnapShot = () => {
+  let dispatch=useDispatch()
   return (
     <div className="snapShotBigMain">
       <div className="snapShopMain">
@@ -23,7 +26,7 @@ const SnapShot = () => {
             gives you quick access to required information and parameters needed
             for your day-to-day decision making.
           </p>
-          <button className="homeBtnCommon">Book a Demo</button>
+          <button className="homeBtnCommon" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
         </div>
       </div>
     </div>

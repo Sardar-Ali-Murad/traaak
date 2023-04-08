@@ -3,8 +3,11 @@ import Img from "../../assets/Integration.png";
 import "./Integration.css";
 import Line from "../../assets/iLine.png";
 import hBar from "../../assets/verticalBar.png";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const Intergration = () => {
+  let dispatch=useDispatch()
   return (
     <div className="integrationBigMain">
       <div className="integrationMain">
@@ -24,7 +27,7 @@ const Intergration = () => {
             These connections provide quick access to data and information
             without having to log in separately.
           </p>
-          <button className="homeBtnCommon">Book a Demo</button>
+          <button className="homeBtnCommon" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
         </div>
       </div>
     </div>

@@ -3,6 +3,8 @@ import "./Project.css";
 import Img from "../../assets/project.png";
 import Line from "../../assets/pLine.png";
 import vBar from "../../assets/verticalBar.png";
+import { useDispatch } from "react-redux";
+import {openContactForm}  from "../../features/appSlice"
 
 const Project = () => {
   return (
@@ -19,7 +21,7 @@ const Project = () => {
             assign and receive tasks from team or project members as an at when
             needed.{" "}
           </p>
-          <button className="homeBtnCommon">Book a Demo</button>
+          <button className="homeBtnCommon" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
         </div>
         <div className="projectImage">
           <img src={Line} className="pLine" />

@@ -3,8 +3,11 @@ import "./Solution.css";
 import { solutionData } from "./data";
 import solImg from "../../assets/solution.png";
 import line from "../../assets/solutionLine.png";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const Solution = () => {
+  let dispatch=useDispatch()
   return (
     <div>
       <img src={line} className="solutionLine" />
@@ -43,7 +46,7 @@ const Solution = () => {
             <img src={solImg} />
           </div>
         </div>
-        <button className="homeBtnCommon solutionBtn">Book a Demo</button>
+        <button className="homeBtnCommon solutionBtn" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
       </div>
     </div>
   );
