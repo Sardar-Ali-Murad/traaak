@@ -8,6 +8,9 @@ import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
 
 const HomeHeader = () => {
+  function openTraaak(){
+    window.open("https://taaskclient.herokuapp.com/", '_blank')
+  }
   return (
     <div className="homeHeaderBigMain">
       <Contact/>
@@ -35,9 +38,15 @@ const HomeHeader = () => {
             what is important.{" "}
           </p>
         </div>
+
+        <div className="headerBtnsFlex">
         <button className="homeBtn" onClick={() => setOpen(true)}>
           Book a Demo
         </button>
+        <button className="homeBtn" onClick={openTraaak}>
+          Solution
+        </button>
+        </div>
 
         <div>
           <img src={HeaderImg} className="headerImg" />

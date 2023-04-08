@@ -24,18 +24,18 @@
   left: 20px;
   z-index: -2; */
   position: relative;
-top: -16px;
-left: 82px;
-z-index: -2;
-width: 160px;
+  top: -16px;
+  left: 82px;
+  z-index: -2;
+  width: 160px;
 }
 .navbarImg1 {
   /* position: relative;
   top: -20px; */
   position: relative;
-top: -62px;
-width: 98px;
-left: 2%;
+  top: -62px;
+  width: 98px;
+  left: 2%;
 }
 .navbarImg3 {
   /* position: absolute;
@@ -44,11 +44,11 @@ left: 2%;
   width: 30px;
   z-index: -2; */
   position: absolute;
-right: 876px;
-top: -26px;
-width: 30px;
-z-index: -2;
-height: 289px;
+  right: 876px;
+  top: -26px;
+  width: 30px;
+  z-index: -2;
+  height: 289px;
 }
 .navbarImg7 {
   /* position: absolute;
@@ -57,20 +57,20 @@ height: 289px;
   width: 150px;
   z-index: -2; */
   position: absolute;
-right: 300px;
-top: -38px;
-width: 150px;
-z-index: -2;
-height: 216px;
+  right: 300px;
+  top: -38px;
+  width: 150px;
+  z-index: -2;
+  height: 216px;
 }
 .navbarImg8 {
   /* position: absolute;
   top: 200px;
   z-index: -2; */
   position: absolute;
-z-index: -2;
-right: 59px;
-top: 93%;
+  z-index: -2;
+  right: 59px;
+  top: 93%;
 }
 .navbarImg9 {
   position: absolute;
@@ -83,10 +83,10 @@ top: 93%;
   width: 180px;
   z-index: -2; */
   position: relative;
-top: -76px;
-width: 180px;
-z-index: -2;
-right: -92px;
+  top: -76px;
+  width: 180px;
+  z-index: -2;
+  right: -92px;
 }
 .navbarImg6 {
   /* position: relative;
@@ -94,10 +94,10 @@ right: -92px;
   width: 170px;
   z-index: -2; */
   position: relative;
-top: 71px;
-width: 170px;
-z-index: -2;
-right: -122px;
+  top: 71px;
+  width: 170px;
+  z-index: -2;
+  right: -122px;
 }
 .navbarImg4 {
   /* position: relative;
@@ -105,10 +105,10 @@ right: -122px;
   top: 70px;
   z-index: -2; */
   position: relative;
-width: 200px;
-top: 25px;
-z-index: -2;
-left: 35px;
+  width: 200px;
+  top: 25px;
+  z-index: -2;
+  left: 35px;
 }
 
 .NavHeader {
@@ -128,20 +128,19 @@ left: 35px;
   }
 }
 
-
-@media screen and (max-width:800px) {
-  .navbarImg7{
+@media screen and (max-width: 800px) {
+  .navbarImg7 {
     display: none;
   }
-  .NavHeader{
+  .NavHeader {
     font-size: 50px;
   }
 }
-@media screen and (max-width:450px) {
-  .navbarImg4{
+@media screen and (max-width: 450px) {
+  .navbarImg4 {
     position: absolute;
   }
-  .NavHeader{
+  .NavHeader {
     font-size: 40px;
   }
 }
