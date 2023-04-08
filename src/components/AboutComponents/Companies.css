@@ -1,0 +1,37 @@
+.companyMain h1{
+  color: #332C5C;
+  font-family: 700;
+  font-family: 'Nunito', sans-serif;
+  font-size: 44px;
+  text-align: center;
+}
+
+.companyMain p{
+ color: #4C4C4C;
+ font-size: 20px;
+ font-weight: 400;
+ font-family: 'Nunito', sans-serif;
+width: 60%;
+margin-left: 50%;
+transform: translateX(-50%);
+text-align: center;
+}
+
+.aboutGrid{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
+    gap: 20px;
+    padding: 30px 0px;
+}
+.aboutGrid img{
+    width:200px;
+}
+
+@media screen and (max-width:700px) {
+    .aboutGrid{
+        width: 50%;
+    }
+}

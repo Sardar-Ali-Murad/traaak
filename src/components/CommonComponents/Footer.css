@@ -69,6 +69,18 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.12);
     font-family: 'Nunito', sans-serif;
 }
 
+.footerParas a{
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    cursor: pointer;
+}
 @media screen and (max-width:1000px) {
     .footerGrid{
         grid-template-columns: 1fr 1fr;

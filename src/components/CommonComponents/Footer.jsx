@@ -2,6 +2,7 @@ import React from "react";
 import Word from "../../assets/T.png";
 import Traak from "../../assets/Traaak.png";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,20 +29,33 @@ const Footer = () => {
              <h1>Our links</h1>
             </div>
             <div className="footerParas">
-             <p>Blogs</p>
+              <Link to="/">
+                <p>Home</p>
+              </Link>
+              <Link to="/blog">
+               <p>Blogs</p>
+              </Link>
+              <Link to="/about">
              <p>About Us</p>
+              </Link>
              <p>Contact Us</p>
             </div>
           </div>
 
           <div className="footerLinks">
             <div>
-            <h1>Product</h1>
+               <h1>Product</h1>
             </div>
             <div className="footerParas">
+              <Link to="/product">
             <p>Product Overview</p>
+              </Link>
+              <Link to="/testimonials">
             <p>Customer Testimonials</p>
+              </Link>
+              <Link to="/pricing">
             <p>Pricing</p>
+              </Link>
             </div>
           </div>
 
