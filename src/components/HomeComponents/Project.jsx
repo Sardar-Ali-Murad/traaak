@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import {openContactForm}  from "../../features/appSlice"
 
 const Project = () => {
+  let dispatch=useDispatch()
   return (
     <div className="projecrBigMain">
       <div className="projectMain">

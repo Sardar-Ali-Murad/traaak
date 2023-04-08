@@ -3,8 +3,11 @@ import "./Customer.css";
 import Img from "../../assets/customer.png";
 import hBar from "../../assets/horizontalBar.png";
 import Line from "../../assets/cLine.png";
+import {openContactForm}  from "../../features/appSlice"
+import { useDispatch } from "react-redux";
 
 const Customer = () => {
+  let dispatch=useDispatch()
   return (
     <div className="customPosition">
       <img src={hBar} className="customerBarsMainImage" />
@@ -22,7 +25,7 @@ const Customer = () => {
               lifecycle or individually depending on what need to be achieved
               and a choice of notifications ensures that nothing is missed.
             </p>
-            <button className="homeBtnCommon">Book a Demo</button>
+            <button className="homeBtnCommon" onClick={()=>dispatch(openContactForm())}>Book a Demo</button>
           </div>
           <div className="customerImages">
             <img src={Line} className="cLine" />
