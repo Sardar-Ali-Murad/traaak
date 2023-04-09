@@ -85,7 +85,7 @@
   position: relative;
   top: -76px;
   width: 180px;
-  z-index: -2;
+  z-index: -20;
   right: -92px;
 }
 .navbarImg6 {
@@ -122,8 +122,20 @@
   font-weight: bolder;
 }
 
+.bar{
+  position: relative;
+  z-index: 200;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
   .navbarImg1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navbarImg5 {
     display: none;
   }
 }
