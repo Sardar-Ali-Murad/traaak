@@ -13,8 +13,11 @@ import img6 from "../../assets/nav6.png";
 import img7 from "../../assets/nav7.png";
 import img8 from "../../assets/nav8.png";
 import img9 from "../../assets/nav9.png";
+import { closeHam } from "../../features/appSlice";
+import { useDispatch } from "react-redux";
 
 const Navbar = ({ text }) => {
+  let dispatch=useDispatch()
   return (
     <div className="navbarBigMain">
       <div className="navbarMain">
@@ -26,7 +29,7 @@ const Navbar = ({ text }) => {
               </div>
               <img src={Traak} className="traak" />
             </div>
-            <img src={bar} className="bar" />
+            <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
           </div>
         </div>
 

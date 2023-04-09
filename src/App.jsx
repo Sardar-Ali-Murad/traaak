@@ -8,11 +8,13 @@ import {
   Product,
 } from "./pages/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Sidebar from "./components/CommonComponents/Sidebar"
 
 const App = () => {
   return (
     <div style={{ overflow: "hidden" }}>
       <BrowserRouter>
+      <Sidebar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

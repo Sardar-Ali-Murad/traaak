@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 let initialState = {
-  contactForm:false
+  contactForm:false,
+  ham:true
 };
 
 
@@ -16,12 +17,20 @@ const appSlice = createSlice({
      closeContactForm:(state)=>{
         state.contactForm=false
      },
+     closeHam:(state)=>{
+        state.ham=false
+     },
+     openHam:(state)=>{
+        state.ham=true
+     },
   }
 });
 
 export const {
   openContactForm,
-  closeContactForm
+  closeContactForm,
+  openHam,
+  closeHam
 } = appSlice.actions;
 
 export default appSlice.reducer;

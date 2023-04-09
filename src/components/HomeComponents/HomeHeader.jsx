@@ -8,6 +8,7 @@ import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
 import {openContactForm}  from "../../features/appSlice"
 import { useDispatch } from "react-redux";
+import {openHam,closeHam}  from "../../features/appSlice"
 
 const HomeHeader = () => {
   let dispatch=useDispatch()
@@ -26,7 +27,7 @@ const HomeHeader = () => {
             </div>
             <img src={Traak} className="traak" />
           </div>
-          <img src={bar} className="bar" />
+          <img src={bar} className="bar" onClick={()=>dispatch(closeHam())}/>
         </div>
 
         <div className="homeHeaderContent">

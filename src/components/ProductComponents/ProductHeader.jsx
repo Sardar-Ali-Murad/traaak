@@ -7,8 +7,11 @@ import Traak from "../../assets/Traaak.png";
 import product1 from "../../assets/product1.png";
 import product2 from "../../assets/product2.png";
 import product3 from "../../assets/product3.png";
+import { closeHam } from "../../features/appSlice";
+import { useDispatch } from "react-redux";
 
 const ProductHeader = () => {
+  let dispatch=useDispatch()
   return (
     <div className="productBigMain">
       <div className="homeHeaderMain">
@@ -19,7 +22,7 @@ const ProductHeader = () => {
             </div>
             <img src={Traak} className="traak" />
           </div>
-          <img src={bar} className="bar" />
+          <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
         </div>
       </div>
       {/*  */}

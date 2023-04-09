@@ -59,6 +59,7 @@
 .bar {
   width: 40px;
   height: 20px;
+  cursor: pointer;
 }
 
 .headerHeading {
