@@ -134,6 +134,12 @@
   }
 }
 
+@media screen and (max-width: 800px) {
+  .navbarImg8,.navbarImg9 {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .navbarImg5 {
     display: none;

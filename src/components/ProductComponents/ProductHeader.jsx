@@ -9,6 +9,7 @@ import product2 from "../../assets/product2.png";
 import product3 from "../../assets/product3.png";
 import { closeHam } from "../../features/appSlice";
 import { useDispatch } from "react-redux";
+import mainLogo from "../../assets/mainLogo.png"
 
 const ProductHeader = () => {
   let dispatch=useDispatch()
@@ -16,12 +17,13 @@ const ProductHeader = () => {
     <div className="productBigMain">
       <div className="homeHeaderMain">
         <div className="headerIcons">
-          <div className="traakLogo">
+          {/* <div className="traakLogo">
             <div className="wordBox">
               <img src={Word} className="word" />
             </div>
             <img src={Traak} className="traak" />
-          </div>
+          </div> */}
+          <img src={mainLogo} className="mainLogo"/>
           <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
         </div>
       </div>

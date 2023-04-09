@@ -6,6 +6,7 @@ import Traak from "../../assets/Traaak.png";
 import { openContactForm, openHam } from "../../features/appSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { AiOutlineClose } from "react-icons/ai";
+import mainLogo  from "../../assets/mainLogo.png"
 
 const Navbar = () => {
   let dispatch = useDispatch();
@@ -29,6 +30,7 @@ const Navbar = () => {
             </div>
             <img src={Traak} className="traak" />
           </div>
+          {/* <img src={mainLogo}  className="mainLogo"/> */}
         </div>
         <nav>
           <ul>

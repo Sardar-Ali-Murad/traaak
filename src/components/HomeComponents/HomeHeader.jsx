@@ -10,6 +10,8 @@ import {openContactForm}  from "../../features/appSlice"
 import { useDispatch } from "react-redux";
 import {openHam,closeHam}  from "../../features/appSlice"
 
+import mainLogo from "../../assets/mainLogo.png"
+
 const HomeHeader = () => {
   let dispatch=useDispatch()
   function openTraaak(){
@@ -21,12 +23,13 @@ const HomeHeader = () => {
       <img src={line} className="headerLine" />
       <div className="homeHeaderMain">
         <div className="headerIcons">
-          <div className="traakLogo">
+          {/* <div className="traakLogo">
             <div className="wordBox">
               <img src={Word} className="word" />
             </div>
             <img src={Traak} className="traak" />
-          </div>
+          </div> */}
+          <img src={mainLogo} className="mainLogo"/>
           <img src={bar} className="bar" onClick={()=>dispatch(closeHam())}/>
         </div>
 
