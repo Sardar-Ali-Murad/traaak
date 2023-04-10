@@ -17,13 +17,13 @@ const ProductHeader = () => {
     <div className="productBigMain">
       <div className="homeHeaderMain">
         <div className="headerIcons">
-          <div className="traakLogo">
+          {/* <div className="traakLogo">
             <div className="wordBox">
               <img src={Word} className="word" />
             </div>
             <img src={Traak} className="traak" />
-          </div>
-          {/* <img src={mainLogo} className="mainLogo"/> */}
+          </div> */}
+          <img src={mainLogo} className="mainLogo"/>
           <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
         </div>
       </div>

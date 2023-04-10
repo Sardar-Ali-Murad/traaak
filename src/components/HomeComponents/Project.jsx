@@ -16,7 +16,7 @@ const Project = () => {
           <h1 className="homeHead">Projects</h1>
           <p className="homePara">
             Manage your customer or non-customer related projects in one place,
-            mapping them to your customer portfolio if this is required.  manage emails campaigns, service improvement plans and even
+            mapping them to your customer portfolio if this is required. Manage emails campaigns, service improvement plans and even
             internal projects relating to your job. Track and monitor progress,
             assign and receive tasks from team or project members.
           </p>
