@@ -69,10 +69,28 @@
 }
 
 .dot {
-  height: 8px;
-  width: 8px;
+  height: 8px !important;
+  width: 8px !important;
   border-radius: 50%;
   background: linear-gradient(180deg, #2e6073 0%, #214b5a 100%);
+  display: none;
+}
+
+.useBullet{
+  position: relative;
+}
+
+.spanDot{
+  height: 8px !important;
+  width: 8px !important;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2e6073 0%, #214b5a 100%);
+  position: absolute;
+  top: 8px;  
+}
+
+.useText{
+  word-break: break-all;
 }
 
 .useBullet p {
@@ -80,7 +98,9 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  margin-left: 20px;
 }
+
 
 .useBtn {
   margin-left: 50%;

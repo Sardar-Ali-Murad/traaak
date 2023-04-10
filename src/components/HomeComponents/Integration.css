@@ -1,13 +1,18 @@
 .integrationBigMain {
-  width: 80%;
+  /* width: 80%;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 100px;
+  margin-bottom: 200px; */
+  width: 80%;
+transform: translateX(-50%);
+margin-left: 50%;
+margin-bottom: 131px;
 }
 
 .integrationMain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  display: flex;
   gap: 70px;
 }
 
@@ -40,14 +45,69 @@
 }
 
 .iLine {
-  position: absolute;
+  /* position: absolute;
   top: 300px;
   left: 300px;
-  z-index: -2;
+  z-index: -2; */
+  /* position: absolute;
+bottom: -277px;
+right: 384px;
+z-index: -2;
+width: 400px; */
+position: absolute;
+bottom: -302px;
+right: -328px;
+z-index: -2;
 }
+
+.integrationContent{
+  width: 100%;
+  flex: 1;
+}
+
+.integrationImage{
+  flex: 1;
+}
+
+/* The Line Styles */
+
+@media screen and (max-width:1200px) {
+  .iLine{
+    position: absolute;
+bottom: -300px;
+right: -280px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1120px) {
+  .iLine{
+    position: absolute;
+    bottom: -244px;
+    right: -253px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1038px) {
+  .iLine{
+    position: absolute;
+    bottom: -193px;
+    right: -253px;
+z-index: -2;
+  }
+}
+
+
+/*  */
 
 @media screen and (max-width: 1000px) {
   .integrationMain {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column-reverse;
+  }
+  .integrationBigMain{
+    margin-top: 200px;
+  }
+  .iBars{
+    display: none;
   }
 }

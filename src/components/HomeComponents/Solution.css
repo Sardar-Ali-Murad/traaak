@@ -2,7 +2,7 @@
   width: 80%;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 200px;
+  margin-bottom: 170px;
 }
 
 .solutionLine {
@@ -109,18 +109,31 @@
 
 .solutionImage img{
   box-shadow: -20px 50px  80px rgba(0, 204, 179, 0.2);
-
 }
 
+.solutionContent{
+  flex: 1;
+}
+
+.solutionImage{
+  flex: 1;
+}
 
 @media screen and (max-width: 1000px) {
   .solutionMain {
     flex-direction: column;
+    gap: 0px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .solutionBox {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .solutionBigMain {
+    margin-bottom: 70px;
   }
 }

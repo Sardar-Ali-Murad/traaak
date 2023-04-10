@@ -5,8 +5,9 @@
 }
 
 .snapShopMain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  display: flex;
   gap: 70px;
 }
 
@@ -19,6 +20,10 @@
 
 .snapShotImage {
   position: relative;
+}
+
+.snapShotContent{
+  width: 100%;
 }
 
 .snapShopMain {
@@ -45,8 +50,27 @@
   /* z-index: -5; */
 }
 
+
+.snapShotContent{
+  flex: 1;
+}
+
+.snapShotImage{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+
 @media screen and (max-width: 1000px) {
   .snapShopMain {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column-reverse;
+  }
+  .snapMiddleBar{
+    display: none;
+  }
+  .snapTopBar{
+    display: none;
   }
 }

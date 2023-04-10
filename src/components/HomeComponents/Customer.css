@@ -2,7 +2,7 @@
   width: 80%;
   transform: translateX(-50%);
   margin-left: 50%;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .customerMain {
@@ -95,11 +95,61 @@
 }
 
 .cLine {
-  position: absolute;
+  /* position: absolute;
   bottom: -300px;
   right: 300px;
-  z-index: -2;
+  z-index: -2; */
+  position: absolute;
+bottom: -316px;
+right: 362px;
+z-index: -2;
 }
+
+/* The Line Css */
+
+@media screen and (max-width:1280px) {
+  .cLine{
+    position: absolute;
+bottom: -344px;
+right: 327px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1216px) {
+  .cLine{
+    position: absolute;
+bottom: -355px;
+right: 279px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1100px) {
+  .cLine{
+    position: absolute;
+    bottom: -345px;
+    right: 233px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1034px) {
+  .cLine{
+    position: absolute;
+    bottom: -345px;
+    right: 233px;
+z-index: -2;
+  }
+}
+@media screen and (max-width:1008px) {
+  .cLine{
+    position: absolute;
+    bottom: -290px;
+    right: 232px;
+    z-index: -2;
+  }
+}
+
+
+/*  */
 
 @media screen and (max-width: 1000px) {
   .customerMain {

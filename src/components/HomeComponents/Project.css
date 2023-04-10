@@ -2,7 +2,7 @@
   width: 80%;
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 .projectMain {
   display: grid;
@@ -28,10 +28,15 @@
 }
 
 .pLine {
-  position: absolute;
+  /* position: absolute;
   z-index: -2;
   top: 200px;
-  left: -300px;
+  left: -300px; */
+  position: absolute;
+z-index: -2;
+top: 219px;
+left: -315px;
+height: 435px;
 }
 
 .projectMain {
@@ -44,8 +49,35 @@
   top: -40px;
 }
 
+/* The Project Line */
+
+@media screen and (max-width:1150px) {
+  .pLine{
+    position: absolute;
+z-index: -2;
+top: 198px;
+left: -276px;
+height: 435px;
+  }
+}
+@media screen and (max-width:1020px) {
+  .pLine{
+    position: absolute;
+z-index: -2;
+top: 193px;
+left: -242px;
+height: 435px;
+  }
+}
+
+
+/*   */
+
 @media screen and (max-width: 1000px) {
   .projectMain {
     grid-template-columns: 1fr;
+  }
+  .projectVBar{
+    display: none;
   }
 }

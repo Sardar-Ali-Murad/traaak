@@ -12,7 +12,7 @@ import Sidebar from "./components/CommonComponents/Sidebar"
 
 const App = () => {
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div style={{ overflowX: "hidden" }}>
       <BrowserRouter>
       <Sidebar/>
         <Routes>
