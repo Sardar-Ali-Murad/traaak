@@ -7,6 +7,7 @@ import { openContactForm, openHam } from "../../features/appSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { AiOutlineClose } from "react-icons/ai";
 import mainLogo  from "../../assets/mainLogo.png"
+import homeLogo from "../../assets/logoHome.png"
 
 const Navbar = () => {
   let dispatch = useDispatch();
@@ -25,9 +26,10 @@ const Navbar = () => {
         <AiOutlineClose className="close" onClick={() => dispatch(openHam())} />
         <div className="headerIcons sidebarIcon">
           <div className="traakLogo">
-            <div className="wordBox">
+            {/* <div className="wordBox">
               <img src={Word} className="word" />
-            </div>
+            </div> */}
+              <img src={homeLogo} style={{height:"40px"}}/>
             <img src={Traak} className="traak" />
           </div>
           {/* <img src={mainLogo}  className="mainLogo"/> */}

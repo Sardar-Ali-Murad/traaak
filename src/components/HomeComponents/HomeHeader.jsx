@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 import {openHam,closeHam}  from "../../features/appSlice"
 
 import mainLogo from "../../assets/mainLogo.png"
+import homeLogo from "../../assets/logoHome.png"
 
 const HomeHeader = () => {
   let dispatch=useDispatch()
@@ -24,9 +25,10 @@ const HomeHeader = () => {
       <div className="homeHeaderMain">
         <div className="headerIcons">
           <div className="traakLogo">
-            <div className="wordBox">
+            {/* <div className="wordBox">
               <img src={Word} className="word" />
-            </div>
+            </div> */}
+            <img src={homeLogo} style={{height:"40px"}}/>
             <img src={Traak} className="traak" />
           </div>
           {/* <img src={mainLogo} className="mainLogo"/> */}
