@@ -3,6 +3,7 @@ import "./Navbar.css";
 import bar from "../../assets/bar.png";
 import Word from "../../assets/T.png";
 import Traak from "../../assets/Traaak.png";
+import homeLogo from "../../assets/logoHome.png"
 
 import img1 from "../../assets/nav1.png";
 import img2 from "../../assets/nav2.png";
@@ -23,16 +24,17 @@ const Navbar = ({ text }) => {
     <div className="navbarBigMain">
       <div className="navbarMain">
         <div className="navBarIcons">
-          <div className="headerIcons">
-            {/* <div className="traakLogo">
-              <div className="wordBox">
-                <img src={Word} className="word" />
-              </div>
-              <img src={Traak} className="traak" />
-            </div> */}
+          {/* <div className="headerIcons">
           <img src={mainLogo} className="mainLogo"/>
             <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
+          </div> */}
+           <div className="headerIcons">
+          <div className="traakLogo">
+            <img src={homeLogo} style={{height:"40px"}}/>
+            <img src={Traak} className="traak" />
           </div>
+          <img src={bar} className="bar" onClick={()=>dispatch(closeHam())}/>
+        </div>
 
         </div>
 

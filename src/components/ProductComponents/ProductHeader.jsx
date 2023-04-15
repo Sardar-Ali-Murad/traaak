@@ -10,22 +10,25 @@ import product3 from "../../assets/product3.png";
 import { closeHam } from "../../features/appSlice";
 import { useDispatch } from "react-redux";
 import mainLogo from "../../assets/mainLogo.png"
+import homeLogo from "../../assets/logoHome.png"
 
 const ProductHeader = () => {
   let dispatch=useDispatch()
   return (
     <div className="productBigMain">
       <div className="homeHeaderMain">
-        <div className="headerIcons">
-          {/* <div className="traakLogo">
-            <div className="wordBox">
-              <img src={Word} className="word" />
-            </div>
-            <img src={Traak} className="traak" />
-          </div> */}
+        {/* <div className="headerIcons">
           <img src={mainLogo} className="mainLogo"/>
           <img src={bar} className="bar" onClick={()=>dispatch(closeHam())} />
+        </div> */}
+          <div className="headerIcons">
+          <div className="traakLogo">
+            <img src={homeLogo} style={{height:"40px"}}/>
+            <img src={Traak} className="traak" />
+          </div>
+          <img src={bar} className="bar" onClick={()=>dispatch(closeHam())}/>
         </div>
+       
       </div>
       {/*  */}
       <div className="productHeaderGrid">

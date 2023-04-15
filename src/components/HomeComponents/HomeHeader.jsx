@@ -2,7 +2,6 @@ import React from "react";
 import "./HomeHeader.css";
 import bar from "../../assets/bar.png";
 import Word from "../../assets/T.png";
-import Traak from "../../assets/Traaak.png";
 import HeaderImg from "../../assets/headerImg.png";
 import line from "../../assets/headerLine.png";
 import Contact from "./ContactForm";
@@ -12,6 +11,7 @@ import {openHam,closeHam}  from "../../features/appSlice"
 
 import mainLogo from "../../assets/mainLogo.png"
 import homeLogo from "../../assets/logoHome.png"
+import Traak from "../../assets/Traaak.png";
 
 const HomeHeader = () => {
   let dispatch=useDispatch()
@@ -25,13 +25,9 @@ const HomeHeader = () => {
       <div className="homeHeaderMain">
         <div className="headerIcons">
           <div className="traakLogo">
-            {/* <div className="wordBox">
-              <img src={Word} className="word" />
-            </div> */}
             <img src={homeLogo} style={{height:"40px"}}/>
             <img src={Traak} className="traak" />
           </div>
-          {/* <img src={mainLogo} className="mainLogo"/> */}
           <img src={bar} className="bar" onClick={()=>dispatch(closeHam())}/>
         </div>
 
