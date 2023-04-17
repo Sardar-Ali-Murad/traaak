@@ -11,10 +11,12 @@ import {
   Use,
 } from "../components/HomeComponents/index";
 import Footer from "../components/CommonComponents/Footer";
+import "./index.css"
+
 
 const Home = () => {
   return (
-    <div>
+    <div className="pagesWrapper">
       <HomeHeader />
       <Problem />
       <Solution />

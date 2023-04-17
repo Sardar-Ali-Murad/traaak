@@ -15,8 +15,8 @@ const Solution = () => {
         <div className="solutionMain">
           <div className="solutionContent">
             <div>
-              <h1 className="sHead">The Solution</h1>
-              <p className="sPara">
+              <h1 style={{marginBottom:"20px"}}>The Solution</h1>
+              <p>
                 Traaak provides the most fundamental tools required for managing
                 customer post-sales customer activities without the unnecessary
                 fluff. A simple yet practical platform that enables users to get

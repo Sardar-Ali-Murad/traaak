@@ -119,6 +119,16 @@
   flex: 1;
 }
 
+.sHead{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.sPara{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
 @media screen and (max-width: 1000px) {
   .solutionMain {
     flex-direction: column;

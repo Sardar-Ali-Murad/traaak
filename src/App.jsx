@@ -9,10 +9,11 @@ import {
 } from "./pages/index";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Sidebar from "./components/CommonComponents/Sidebar"
+import "./App.css"
 
 const App = () => {
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div style={{ overflowX: "hidden" }} className="appMain">
       <BrowserRouter>
       <Sidebar/>
         <Routes>

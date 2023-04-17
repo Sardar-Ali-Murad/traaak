@@ -1,13 +1,14 @@
-.appMain h1,
-h2,
-h3,
-h4,
-h5 {
+.pagesWrapper h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
-.appMain p {
+.pagesWrapper h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.pagesWrapper p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }

@@ -126,13 +126,14 @@
     rgba(33, 75, 90, 0.7) 100%
   );
   backdrop-filter: blur(4px);
+  font-family: 'Roboto', sans-serif;
 }
 
 .dialogBoxHeader {
   color: #332c5c;
   font-size: 37px;
   font-weight: 700;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
   padding: 10px 20px;
 }
 
@@ -148,7 +149,7 @@
   color: #152428;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
 }
 
 .dialogBoxInput {
@@ -160,7 +161,7 @@
   color: #3a606e;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
   outline: none;
 }
 

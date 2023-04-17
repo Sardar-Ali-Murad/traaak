@@ -8,10 +8,11 @@ import {
 } from "../components/AboutComponents/index";
 import Numbers from "../components/ProductComponents/ProductNumbers";
 import Footer from "../components/CommonComponents/Footer";
+import "./index.css"
 
 const About = () => {
   return (
-    <div>
+    <div  className="pagesWrapper">
       <Navbar text="About Us" />
       <Numbers />
       <AboutContent />

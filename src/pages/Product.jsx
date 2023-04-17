@@ -7,9 +7,12 @@ import {
   Map,
 } from "../components/ProductComponents/index";
 import Footer from "../components/CommonComponents/Footer";
+import "./index.css"
+
+
 const Product = () => {
   return (
-    <div>
+    <div className="pagesWrapper">
       <ProductHeader />
       <ProductNumbers />
       <ProductContent />
