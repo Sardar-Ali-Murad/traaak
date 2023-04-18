@@ -126,7 +126,7 @@
     rgba(33, 75, 90, 0.7) 100%
   );
   backdrop-filter: blur(4px);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-sserif;
 }
 
 .dialogBoxHeader {

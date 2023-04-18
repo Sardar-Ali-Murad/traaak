@@ -33,7 +33,7 @@ const Compare = () => {
                       <div className="tickBox">
                         <img src={tick} />
                       </div>
-                      <p className="tickContent">{text}</p>
+                      <p>{text}</p>
                     </div>
                   );
                 })}

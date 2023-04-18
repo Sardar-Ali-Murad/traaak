@@ -89,6 +89,11 @@
   align-items: center;
   background-color: #ffffff;
 }
+/* 
+.tickContent{
+  position: relative;
+  top: 5px;
+} */
 
 @media screen and (max-width: 900px) {
   .compareBoxes {
