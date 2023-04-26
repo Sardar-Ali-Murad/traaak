@@ -12,10 +12,23 @@
 }
 
 .solutionMain {
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
   display: flex;
   gap: 70px;
+}
+
+.solutionPara{
+  color: #4c4c4c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.solutionHead{
+  color: #332c5c;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
 }
 
 .solutionContent {
